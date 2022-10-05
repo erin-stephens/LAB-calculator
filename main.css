@@ -3,10 +3,10 @@ body {
 }
 .calculator {
   width: 400px;
-  display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0px;
 }
-table, button {
+.calculator {
   border: solid black 1px;
 }
 .orange-button {
@@ -20,6 +20,8 @@ table, button {
 .black-button {
   background-color: #000000;
   color: #ffffff;
+  font-family: monospace;
+  font-size: 40px;
 }
 .orange-button:hover {
   background-color: #dfb07e;
@@ -32,4 +34,24 @@ table, button {
 }
 .grey-button:active {
   background-color: #bbbcbe;
+}
+button {
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 40px;
+}
+.grey-button.arrow {
+  width: 100px;
+}
+.grey-button.special-char {
+  width: 200px;
+}
+.grey-button.long-char {
+  width: 300px;
+}
+button {
+  border: solid black 1px;
 }
