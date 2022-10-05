@@ -17,11 +17,15 @@ body {
   background-color:#d8d9db;
   color: #000000;
 }
-.black-button {
+.black-box {
   background-color: #000000;
   color: #ffffff;
   font-family: monospace;
   font-size: 40px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 .orange-button:hover {
   background-color: #dfb07e;
