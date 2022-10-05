@@ -2,5 +2,34 @@ body {
   background-color: azure;
 }
 .calculator {
-  border: solid black 5px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+table, button {
+  border: solid black 1px;
+}
+.orange-button {
+  background-color: #df974c;
+  color: #ffffff;
+}
+.grey-button {
+  background-color:#d8d9db;
+  color: #000000;
+}
+.black-button {
+  background-color: #000000;
+  color: #ffffff;
+}
+.orange-button:hover {
+  background-color: #dfb07e;
+}
+.grey-button:hover {
+  background-color: #ebebeb;
+}
+.orange-button:active {
+  background-color: #dd8d37;
+}
+.grey-button:active {
+  background-color: #bbbcbe;
 }
